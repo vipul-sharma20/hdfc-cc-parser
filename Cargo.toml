@@ -7,9 +7,16 @@ keywords = ["HDFC", "credit card", "bill"]
 license = "MIT"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name = "hdfc-cc-parser-rs"
+path = "src/main.rs"
+
+[lib]
+name = "hdfc_cc_parser"
+crate-type = ["cdylib"]
 
 [dependencies]
+pyo3 = { version = "0.20", features = ["extension-module"] }
 anyhow = "1.0.68"
 chrono = "0.4.23"
 csv = "1.1.6"
