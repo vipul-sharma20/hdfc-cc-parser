@@ -10,7 +10,7 @@ package for [hdfc-cc-parser-rs][hdfc-cc-parser-rs].
 ### Installation
 
 ```
-pip install https://github.com/vipul-sharma20/hdfc-cc-parser/releases/download/v0.0.6/hdfc_cc_parser_rs-0.0.6-cp310-cp310-macosx_11_0_arm64.whl
+pip install hdfc-cc-parser-rs
 ```
 
 ### Build Package Manually
